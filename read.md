@@ -8,6 +8,22 @@
 - création d'une variable d'environnement globale APP_ENV reliée à local ainsi lorsqu'on fera cette commande :
 php artisan migrate cela va se baser sur le .env.local
 
+- php artisan lang:publish
+
+- php artisan make:request NameRequest
+
+- extension sqlite téléchargée
+- extension sqlite viewer téléchargée
+- création d'un fichier Middleware (commande : php artisan make:middleware NameMiddleware)
+
+- php artisan event:generate
+- php artisan make:mail NameMail
+- php artisan make:view emails.user-created-mail
+
+- developper google smtp
+
+- composer require --dev barryvdh/laravel-ide-helper
+
 - DB_CONNECTION=sqlite
 
 /*
